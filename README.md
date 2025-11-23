@@ -64,6 +64,8 @@ terraform-ec2-webserver/
 5. Deployed a test HTML page to `/var/www/html/index.html`
 
 This allowed verifying the basic stack before automating everything.
+![EC2 manual deployment](images/ec2_manual.png)
+![Website after manual setup](images/site_manual.png)
 
 ---
 
@@ -115,6 +117,8 @@ And SSH access:
 ```bash
 ssh -i "First Key.pem" ec2-user@<public_dns>
 ```
+![EC2 Terraform deployment](images/ec2_tf.png)
+![Website after Terraform setup](images/site_tf.png)
 
 ---
 
