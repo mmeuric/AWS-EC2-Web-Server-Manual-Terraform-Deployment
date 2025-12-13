@@ -179,5 +179,4 @@ Everything else in Terraform stays exactly the same.
 * User Data automation
 * SSH key management
 * Security Groups & networking
-* Git & GitHub workflow
 
